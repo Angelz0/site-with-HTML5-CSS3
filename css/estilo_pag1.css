@@ -1,0 +1,46 @@
+body{
+    background: rgb(141, 141, 141);
+    height: 600px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.imagem_photo{
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+#caixa{
+    background: white;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.texto{
+    text-align: justify;
+    font-family: "Lucida Console";
+    color:rgb(116, 116, 116);
+    font-size: 22px;
+    padding: 0 30px;
+}
+
+.list{
+    list-style-type: none;
+    font-family: "Lucida Console";
+    padding: 0;
+    text-align: center;
+}
+
+a{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+a:hover{
+    color: rgb(116, 116, 116);
+    text-decoration: solid;
+}

@@ -1,0 +1,58 @@
+body {
+    background: rgb(141, 141, 141);
+    font-family: Arial;
+    max-width: 900px;
+    margin: auto;
+}
+
+#title, .subtitle{
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+#title{
+    font-size: 40px;
+}
+
+a{
+    color: rgb(43, 128, 226);
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.post{
+    background: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    text-align: justify;
+}
+
+.post_image{
+    width: 100%;
+}
+
+.footer{
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgb(63, 63, 63);
+    font-family: "Lucida Console";
+    text-align: center;
+    color: #FFF;
+}
+
+.footer a{
+    color: #FFF;
+    text-transform: uppercase;
+}
+.footer a:hover{
+    color: rgb(28, 211, 28);
+    text-decoration: solid;
+}

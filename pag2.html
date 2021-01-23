@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1" />
+    <link rel="stylesheet" type="text/css" href="css/estilo_pag2.css" />
+    <title>TI Posts</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">TI Posts</h1>
+        <b class="subtitle">Programação, tecnologia e etc.</a></b>
+    </header>
+    <section>
+        <article class="post">
+            <header>
+                <h3 class="post_title">Post #2: Como compartilhar seu projeto no GitHub (Windows)
+                </h3>
+                <img src="img/postagem-2.jpg" alt="imagem da página do GitHub aberta no navegador" class="post_image">
+            </header>
+            <p>
+            Primeiro: Criar um novo repositório no <a href="https://github.com" target="_blank">github.com</a>,
+            colocar o
+            nome do projeto e a descrição.
+            <p></p>
+            No windows, com o Git Bash já instalado (você pode baixar aqui: <a href="https://gitforwindows.org"
+                target="_blank">https://gitforwindows.org</a>),
+            faça o seguinte passo-a-passo (é simples e sempre dá certo):
+            <ol>
+                <li>Clicar com o botão direito na pasta a ser adicionada e depois em “Git Bash Here”</li>
+
+                <li>git init (inicializar a pasta a ser adicionada)</li>
+
+                <li>git status (lista tudo o que tem dentro da pasta)</li>
+
+                <li>git add *</li>
+
+                <li>git status (lista tudo o que será enviado para o GitHub)</li>
+
+                <li>git commit -m “project code”</li>
+
+                <li>git remote add origin + url do repositório que você criou</li>
+
+                <li>git push -u origin master</li>
+
+                <li>Digitar o seu usuário e a sua senha</li>
+
+                <li>O seu projeto já estará no repositório criado.</li>
+            </ol>
+            </p>
+        </article>
+        <article class="post">
+            <header>
+                <h3 class="post_title">Post #1: Compilar código Java pelo prompt</h3>
+                <img src="img/postagem-1.jpg" alt="imagem de Ada Lovelace e um diagrama ao fundo" class="post_image">
+            </header>
+            <p>
+                Depois de escrever seu código Java no bloco de notas e salvar com o nome da classe + extensão .java,
+                faça o seguinte passo-a-passo:
+            <p></p>
+
+            <ol>
+                <li>
+                    Abra o prompt (cmd) do Windows;
+                </li>
+                <li>
+                    Digite cd + caminho do diretório onde o arquivo se encontra (se estiver na área de trabalho, usar cd
+                    + Desktop);
+                </li>
+                <li>
+                    Digitar o comando javac + nome do seu arquivo.java (por exemplo, para um arquivo que se chama
+                    "MeuPrograma", digitar "javac MeuPrograma.java");
+                </li>
+                <li>
+                    O arquivo já estará compilado e você poderá executá-lo digitando java + nome do arquivo (por
+                    exemplo, java MeuPrograma);
+                </li>
+            </ol>
+            <p>Lembrando que para compilar e executar pelo prompt é necessário já ter a JRE instalado e que escrever,
+                compilar e executar um código é muito mais fácil usando uma IDE, como o Eclipse ou o NetBeans.
+            </p>
+            </p>
+        </article>
+    </section>
+    <footer id="contato" class="footer">
+        <p>Por <a href="pag1.html" target="_blank">Angelz</a> (clique para saber sobre mim).</p>
+    </footer>
+</body>
+
+</html>
